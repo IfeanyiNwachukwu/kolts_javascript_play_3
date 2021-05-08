@@ -32,8 +32,15 @@ btn.addEventListener('click',() =>{
 });
 
 btn.addEventListener('mouseover',() =>{
-    btn.innerText = 'STOP TOUCHING ME'
+    btn.innerText = 'STOP TOUCHING ME';
 });
+
+btn.addEventListener('mouseout',() =>{
+    btn.innerText = 'CLICK ME';
+});
+window.addEventListener('scroll',()=>{
+    console.log('STOP SCROLLING');
+})
 
 
 
