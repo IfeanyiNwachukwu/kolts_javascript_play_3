@@ -40,7 +40,9 @@ btn.addEventListener('mouseout',() =>{
 });
 window.addEventListener('scroll',()=>{
     console.log('STOP SCROLLING');
-})
+});
+
+// ADDING EVENTS ON MULTIPLE ELEMENTS
 
 
 
